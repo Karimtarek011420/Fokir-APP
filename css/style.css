@@ -1,0 +1,156 @@
+header{
+    background-image: url("../images/slider/slider-01.jpg");
+    background-size: 100% 100%;
+}
+.layerHeader{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header .nav-item a {
+    color: white;
+}
+header .nav-item:hover a    {
+    color: #F2305B;
+
+}
+.caption .bord , figure , img {
+    width: 400px;
+    height: 400px;
+}
+.caption figcaption{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.caption figure{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    bottom: 0;
+    right: 0;
+}
+.caption h2{
+    position: relative;
+}
+ .caption h2::after{
+    content: "";
+    width: 6px;
+    height:45px;
+    background-color: #F2305B;
+    position: absolute;
+    right:100% ;
+}
+header nav {
+    background-color: #333333;
+}
+.portiflo{
+    background-color: #EEEEEE;
+}
+.portiflo h2{
+    position: relative;
+    margin-bottom: 5px;
+
+}
+.portiflo h2::after {
+   content: "";
+    width: 150px;
+    height:2px;
+    margin-top: 5px;
+    background-color: #F2305B;
+    position: absolute;
+    top:110% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.portiflo h2::before {
+   content: "";
+    width: 100px;
+    height:15px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    /* background-color: #F2305B; */
+    position: absolute;
+    top:120% ;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.portiflo .portItem:hover {
+ background-color: white;
+ border-radius: 20px;
+}
+.portImage h2{
+    position: relative;
+    margin-bottom: 5px;
+
+}
+.portImage h2::after {
+   content: "";
+    width: 150px;
+    height:2px;
+    margin-top: 5px;
+    background-color: #F2305B;
+    position: absolute;
+    top:110% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.portImage h2::before {
+   content: "";
+    width: 100px;
+    height:15px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    /* background-color: #F2305B; */
+    position: absolute;
+    top:120% ;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.portImage .itemImage{
+    position: relative;
+    overflow: hidden;
+}
+.portImage .itemImage .caption {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(97, 94, 91,0.5);
+    transition: all 0.5s;
+}
+.portImage .itemImage:hover .caption {
+    top: 0;
+}
+.blog{
+    background-color: #EEEEEE;
+}
+.blog h2{
+    position: relative;
+    margin-bottom: 5px;
+
+}
+.blog h2::after {
+   content: "";
+    width: 150px;
+    height:2px;
+    margin-top: 5px;
+    background-color: #F2305B;
+    position: absolute;
+    top:110% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.blog h2::before {
+   content: "";
+    width:80px;
+    height:15px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    /* background-color: #F2305B; */
+    position: absolute;
+    top:120% ;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.aspct {
+    aspect-ratio:16/15;
+}
+
+
